@@ -19,3 +19,4 @@ exclude:
   - LICENSE
   - README
   - config
+  - rakefile
