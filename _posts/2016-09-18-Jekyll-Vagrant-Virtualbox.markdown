@@ -136,6 +136,7 @@ Vagrant.configure(2) do |config|
 
 end
 {% endhighlight %}
+
 Comparé au fichier fourni sur le site de DigitalShore, j'ai ajouté :
 
 *   une référence à un plugin pour synchroniser le fuseau horaire (cf. plus bas) ;
@@ -153,13 +154,13 @@ Une solution consite à faire appel à un plugin Vagrant qui s'occuepra de réso
 ### Synchroniser le fuseau horaire
 Jekyll utilise la date courante pour savoir si un post doit être publié ou non. Tous les articles qui ont une date dans le futur sont ignorés. Cela m'a posé quelques problèmes car par défaut, la machine virtuelle n'est pas sur le même fuseau horaire.
 Une solution consiste à installer le plugin Vagrant  [vagrant-timezone](https://github.com/tmatilai/vagrant-timezone) et à ajouter le code suivant dans le `Vagrantfile` :
-{% highlight ruby %}
-  # Set the timezone to the host timezone
-  if Vagrant.has_plugin?("vagrant-timezone")
-    config.timezone.value = :host
-  end
-{% endhighlight %}
 
+{% highlight ruby %}
+# Set the timezone to the host timezone
+if Vagrant.has_plugin?("vagrant-timezone")
+  config.timezone.value = :host
+end
+{% endhighlight %}
 
 ## Installation de Jekyll et création de votre premier blog statique
 Il n'y a pas vraiment d'installation car Vagrant s'est chargé d'installer toutes les dépendances lors de la création de la VM.
@@ -174,7 +175,7 @@ jekyll new mon-super-site-statique
 cd mon-super-site-statique
 bundle install
 bundle exec jekyll serve --host=0.0.0.0 --force_polling
-% endhighlight %}  
+{% endhighlight %}  
 
 
 La dernière ligne est un peu différente de ce qui est indiqué [sur le site officiel de Jekyll](https://jekyllrb.com/). Les deux derniers arguments permettent de rendre le serveur jekyll accessible depuis l'extérieur de la VM et rendre la regénération des pages sur la detection d'un changement de fichier fonctionnelle.
