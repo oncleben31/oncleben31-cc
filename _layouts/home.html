@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="home">
+
+
+  {% assign date_format = site.post_date_format | default: "%b %-d, %Y" %}
+  {% assign custom_url = site.url | append: site.baseurl %}
+  {% assign full_base_url = custom_url | default: site.github.url %}
+
+  <h1 class="page-heading">{{ site.posts_title | default: "Posts"}}</h1>
+
+  {{ content }}
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: full_base_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">{{site.subscribe_RSS | default: "subscribe via "}}<a href="{{ "/feed.xml" | prepend: full_base_url }}">RSS</a></p>
+
+</div>

@@ -6,7 +6,15 @@ description: > # this means to ignore newlines until "baseurl:"
   avec l'Internet mondial.
 twitter_username: oncleben31
 github_username:  oncleben31
+
+### Basic i18n:
 lang: fr
+posts_title: "Articles"
+subscribe_RSS: "S'abonner aux flux "
+#post_date_format: "%Y-%m-%d"   #example 2016-9-06
+#post_date_format: "%d/%m/%Y"    #example 06/09/2016
+post_date_format: "%-d %B %Y"  #example 6 September 2016
+
 
 # Build settings
 markdown: kramdown
