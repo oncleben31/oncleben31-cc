@@ -26,3 +26,6 @@ exclude:
   - config
   - rakefile
   - script
+
+gems:
+ - jekyll-sitemap
