@@ -6,6 +6,9 @@ description: > # this means to ignore newlines until "baseurl:"
   avec l'Internet mondial.
 twitter_username: oncleben31
 github_username:  oncleben31
+google_analytics: UA-10458131-3
+disqus:
+  shortname: oncleben31-cc
 
 ### Basic i18n:
 lang: fr
