@@ -1,8 +1,9 @@
+# Thanks to https://github.com/mmistakes
+# Inspired by: https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/Rakefile.rb
+
 ##############
 # Jekyll tasks
 ##############
-# Thanks to https://github.com/mmistakes
-# Inspired by: https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/Rakefile.rb
 
 # Usage: rake serve, rake serve:prod
 task :serve => ["serve:dev"]
@@ -12,6 +13,12 @@ namespace :serve do
   task :dev do
     puts "Starting up development Jekyll site server..."
     system "bundle exec jekyll serve --config _config.yml,_config.dev.yml --host 0.0.0.0 --force_polling"
+  end
+
+  desc "Serve development Jekyll site locally with drafts"
+  task :drafts do
+    puts "Starting up development Jekyll site server with drafts..."
+    system "bundle exec jekyll serve --config _config.yml,_config.dev.yml --host 0.0.0.0 --force_polling --drafts"
   end
 
   desc "Serve production Jekyll site locally"
@@ -48,4 +55,14 @@ namespace :build do
     puts "* Regenerating files and drafts for development..."
     system "bundle exec jekyll build --config _config.yml,_config.dev.yml --profile --drafts"
   end
+end
+
+##############
+# CI tasks
+##############
+# Usage: rake htmlproofer
+desc "htmlproofer on the contents of ./_site"
+task :htmlproofer do
+  puts "htmlproofer on the contents of ./_site"
+  system "bundle exec htmlproofer ./_site"
 end
