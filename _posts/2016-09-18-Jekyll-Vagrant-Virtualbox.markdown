@@ -182,7 +182,7 @@ La dernière ligne est un peu différente de ce qui est indiqué [sur le site of
 
 Il ne reste donc plus qu'à utiliser votre navigateur préféré pour consulter l'url  `http://127.0.0.1:4000`.
 
-Au moment où j'écris cet article, il y a un bug avec le template minima par defaut. Si vous avez l'impression que votre feuille de style CSS n'est pas appliquée, allez éditer le fichier `_config.yml` et remplacez :
+Au moment où j'écris cet article, il y a un bug avec le thème minima par défaut. Si vous avez l'impression que votre feuille de style CSS n'est pas appliquée, allez éditer le fichier `_config.yml` et remplacez :
 {% highlight ruby %}
 url: "example.com"
 {% endhighlight %}
