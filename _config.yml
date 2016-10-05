@@ -13,7 +13,7 @@ disqus:
 ### Basic i18n:
 lang: fr
 posts_title: "Articles"
-subscribe_RSS: "S'abonner aux flux "
+subscribe_RSS: "S'abonner au flux "
 
 
 # Build settings
@@ -29,6 +29,7 @@ exclude:
   - config
   - rakefile
   - script
+  - vendor
 
 gems:
  - jekyll-sitemap

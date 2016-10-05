@@ -48,14 +48,14 @@ Les plus important est __la capacité de votre site à fonctionner sur des appar
 
 Le second paramètre notable est __l'intégration de vos liens aux réseaux sociaux__. En effet les réseaux sociaux sont de plus en plus source de traffic, il est donc primordial d'optimiser la façon dont apparaissent les liens vers vos pages quand ils sont publiés sur ces réseaux. Je ne vais pas rentrer dans le détail, internet est votre amis pour approfondir ce sujet.
 
-## Rester informer
+## Rester informé
 
 Le dernier conseil que je pourrai donner : si vous voulez en savoir plus il faut lire régulièrement les sites spécialisés en SEO sur internet. Les moteurs de recherche changeant régulièrement leur algorithmes, il faut savoir réagir pour garder ses pages bien positionnées dans les résultats des moteurs de recherche.
 
 __Liste de lecture non exhaustive et accessible aux débutants :__
 
 *   [Seomix](http://www.seomix.fr/) et [Le blog de Florian Karmen](http://floriankarmen.com/) (en français)
-*   [Yoast](http://yoast.com/) et le blog de [Matt Cutts](http://www.mattcutts.com/blog/type/googleseo/) (en français)
+*   [Yoast](http://yoast.com/) et le blog de [Matt Cutts](http://www.mattcutts.com/blog/type/googleseo/) (en anglais)
 
 ## En conclusion
 
