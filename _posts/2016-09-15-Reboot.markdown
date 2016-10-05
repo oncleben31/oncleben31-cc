@@ -5,12 +5,12 @@ categories: article
 ---
 Deuxième reboot de ce blog.
 
-Il n'avait pas été mis à jour depuis plusieurs années et le contenu précedent était obsolète. J'ai hésité à le supprimer totalement pour éviter de diffuser de mauvaises informations, mais au final j'ai preféré le rebooter pour les raisons suivantes :
+Il n'avait pas été mis à jour depuis plusieurs années et le contenu précédent était obsolète. J'ai hésité à le supprimer totalement pour éviter de diffuser de mauvaises informations, mais au final j'ai préféré le rebooter pour les raisons suivantes :
 
 *   j'ai encore des choses à partager ;
 *   j'en profite pour migrer vers un blog statique basé sur [Jekyll](https://jekyllrb.com/ "Site officiel de Jekyll"). Au revoir CMS et bases de données ;
 *   j'en profite pour faire des TP impliquant une __machine virtuelle__, __git__, __Github Pages__ ainsi que des solutions __d'Intégration Continue__ et de __Déploiement Continue__.
 
-J'epère que vous le trouverez agréable à consulter.
+J'espère que vous le trouverez agréable à consulter.
 
 Oncleben31.

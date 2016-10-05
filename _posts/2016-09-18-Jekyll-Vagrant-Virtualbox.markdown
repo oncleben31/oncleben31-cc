@@ -6,7 +6,7 @@ tags: [jekyll, vagrant]
 ---
 ## Pourquoi ?
 
-En faisant complètement autre chose, je suis tombé sur une [présentation de Jekyll ainsi qu'une comparaison entre cet, outil permettant de faire des blogs statiques, et Wordpress](http://digitalshore.io/jekyll-better-choice-than-joomla-wordpress/). Je suis rapidement convaincu par l'argumentaire et ca me donne envie de réssuciter oncleben31.cc
+En faisant complètement autre chose, je suis tombé sur une [présentation de Jekyll ainsi qu'une comparaison entre cet outil permettant de faire des blogs statiques et Wordpress](http://digitalshore.io/jekyll-better-choice-than-joomla-wordpress/). Je suis rapidement convaincu par l'argumentaire et ça me donne envie de ressusciter oncleben31.cc
 
 Et hop ! Me voilà lancé dans la découverte de cet outil et des différentes manières de l'utiliser.
 
@@ -14,10 +14,10 @@ Sur le même blog qui m'a fait découvrir Jekkyl, j'ai lu un article [expliquant
 
 *   on évite les conflits avec les outils et binaires de notre OS ;
 *   on peut customiser les versions de nos outils, binaires ou dépendances en fonction des projets en cours de développement ;
-*   on peut calquer l'environnement de production d'un fournisseur d'hebergement pour éviter de découvrir des problèmes de compatibilité pendant le déploiement ;
+*   on peut calquer l'environnement de production d'un fournisseur d'hébergement pour éviter de découvrir des problèmes de compatibilité pendant le déploiement ;
 *   il est possible de synchroniser des fichiers entre la VM et l'OS de votre machine.
 
-Mais là où c'est vraiment fort c'est que grace à Vagrant, la construction et le paramétrage de la machine virtuelle est complètement automatisée. Ainsi le paramétrage des machines virtuelles utilisées est facile à sauvegarder et rétablir en cas de besoin.
+Mais là où c'est vraiment fort c'est que grâce à Vagrant, la construction et le paramétrage de la machine virtuelle est complètement automatisée. Ainsi le paramétrage des machines virtuelles utilisées est facile à sauvegarder et rétablir en cas de besoin.
 
 ## Comment ?
 
@@ -40,7 +40,7 @@ Vous trouverez plus bas un exemple avec le fichier `Vagrant` que j'utilise en ce
 {% highlight shell %}
 vagrant up
 {% endhighlight %}
-Lors du premier lancement la VM sera créée. C'est à dire que l'image sera téléchargée, ensuite la VM sera lancée et toutes les dépendances paramétrées seront installées.
+Lors du premier lancement la VM sera créée. C'est-à-dire que l'image sera téléchargée, ensuite la VM sera lancée et toutes les dépendances paramétrées seront installées.
 Lors des lancements suivants, la VM sera juste démarrée.
 
 ### On se connecte à la VM en SSH
@@ -51,7 +51,7 @@ vagrant ssh
 ### Enjoy ;-)
 Vous êtes connecté ! A vous de bosser.
 Le but de cet article n'est pas d'expliquer finement comment utiliser Vagrant. Il y a d'autres tutoriels de disponibles. Vous pouvez commencer par l'article du site [DigitalShore
-](http://digitalshore.io/set-up-a-local-linux-development-environment-with-vagrant/) que j'ai utiliser pour découvrir Vagrant.
+](http://digitalshore.io/set-up-a-local-linux-development-environment-with-vagrant/) que j'ai utilisé pour découvrir Vagrant.
 
 ## Exemple de Vagrantfile & astuces
 
@@ -140,8 +140,8 @@ end
 Comparé au fichier fourni sur le site de DigitalShore, j'ai ajouté :
 
 *   une référence à un plugin pour synchroniser le fuseau horaire (cf. plus bas) ;
-*   une référence au Gem `Bundler` qui est utilisé dans l'installation et le déploiement de Jekyll depuis je ne sais plus qu'elle version.
-*   plusieurs lignes nécessaire au fonctionnement de Jekyll hébergé sur Github grace au gem github-pages.
+*   une référence au Gem `Bundler` qui est utilisé dans l'installation et le déploiement de Jekyll depuis je ne sais plus quelle version.
+*   plusieurs lignes nécessaire au fonctionnement de Jekyll hébergé sur Github grâce au gem github-pages.
 
 
 ### Résoudre les erreurs liées au VirtualBox "Guest Additions"
@@ -149,10 +149,10 @@ Si vous regardez attentivement les différents messages affichés lors du démar
 
 `The guest additions on this VM do not match the installed version of VirtualBox!`
 
-Une solution consite à faire appel à un plugin Vagrant qui s'occuepra de résoudre le problème tout seul: [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest)
+Une solution consiste à faire appel à un plugin Vagrant qui s'occupera de résoudre le problème tout seul: [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest)
 
 ### Synchroniser le fuseau horaire
-Jekyll utilise la date courante pour savoir si un post doit être publié ou non. Tous les articles qui ont une date dans le futur sont ignorés. Cela m'a posé quelques problèmes car par défaut, la machine virtuelle n'est pas sur le même fuseau horaire.
+Jekyll utilise la date courante pour savoir si un post doit être publié ou non. Tous les articles qui ont une date dans le futur sont ignorés. Cela m'a posé quelques problèmes, car par défaut, la machine virtuelle n'est pas sur le même fuseau horaire.
 Une solution consiste à installer le plugin Vagrant  [vagrant-timezone](https://github.com/tmatilai/vagrant-timezone) et à ajouter le code suivant dans le `Vagrantfile` :
 
 {% highlight ruby %}
@@ -163,7 +163,7 @@ end
 {% endhighlight %}
 
 ## Installation de Jekyll et création de votre premier blog statique
-Il n'y a pas vraiment d'installation car Vagrant s'est chargé d'installer toutes les dépendances lors de la création de la VM.
+Il n'y a pas vraiment d'installation, car Vagrant s'est chargé d'installer toutes les dépendances lors de la création de la VM.
 
 Pour créer votre premier site avec Jekyll
 
@@ -178,7 +178,7 @@ bundle exec jekyll serve --host=0.0.0.0 --force_polling
 {% endhighlight %}  
 
 
-La dernière ligne est un peu différente de ce qui est indiqué [sur le site officiel de Jekyll](https://jekyllrb.com/). Les deux derniers arguments permettent de rendre le serveur jekyll accessible depuis l'extérieur de la VM et rendre la regénération des pages sur la detection d'un changement de fichier fonctionnelle.
+La dernière ligne est un peu différente de ce qui est indiqué [sur le site officiel de Jekyll](https://jekyllrb.com/). Les deux derniers arguments permettent de rendre le serveur jekyll accessible depuis l'extérieur de la VM et rendre la régénération des pages, sur la detection d'un changement de fichier, fonctionnelle.
 
 Il ne reste donc plus qu'à utiliser votre navigateur préféré pour consulter l'url  `http://127.0.0.1:4000`.
 

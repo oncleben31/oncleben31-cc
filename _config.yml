@@ -33,3 +33,4 @@ exclude:
 
 gems:
  - jekyll-sitemap
+ - jemoji

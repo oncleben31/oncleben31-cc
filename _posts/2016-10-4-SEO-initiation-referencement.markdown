@@ -10,9 +10,9 @@ Je republie après mise-à-jour un article de l'ancienne version de mon blog con
 ## Introduction
 
 
-J’aimerai partager une constatation ici à propos des blogs et de l’optimisation de l’indexation par les moteurs de recherche (aussi appelé référencement ou SEO en anglais). Il y a quelques notions à bien comprendre avant de se lancer car elles peuvent avoir un impact fort sur l’architecture de votre blog. D’autre part si vous deviez vous intéresser au référencement une fois votre site en place et rempli de contenu, les optimisations à faire vous obligeront sûrement à modifier le contenu et les URL de vos pages. Autant donc être sensibilisé à cette notion dès le départ.
+Je partage ici une constatation à propos des blogs et de l’optimisation de l’indexation par les moteurs de recherche (aussi appelé référencement ou SEO en anglais). Il y a quelques notions à bien comprendre avant de se lancer, car elles peuvent avoir un impact fort sur l’architecture de votre blog. D’autre part si vous deviez vous intéresser au référencement une fois votre site en place et rempli de contenu, les optimisations à faire vous obligeront sûrement à modifier le contenu et les URL de vos pages. Autant donc être sensibilisé à cette notion dès le départ.
 
-Je ne vais pas rentrer dans les détails et dans le technique car le référencement est un métier à part entière qui se base sur de la théorie et surtout de l’expérimentation. Voilà donc les concepts à connaître.
+Je ne vais pas rentrer dans les détails et dans la technique car le référencement est un métier à part entière qui se base sur de la théorie et surtout de l’expérimentation. Voilà donc les concepts à connaître.
 
 ## Les bases
 
@@ -27,26 +27,26 @@ Dans la suite logique du premier point __la priorité est à mettre sur le conte
 
 Il peut être très intéressant d’avoir __une page thématique__ qui redirige vers les contenus les plus intéressants et les plus fréquentés de votre site. Ce type de page devrait être bien placé dans les résultats des moteurs de recherche.
 
-Il faut éviter le __contenu dupliqué__. Il peut arrivé qu’un contenu soit accessible par l’intermédiaire de plusieurs URL différentes ou que des pages de votre site ont le même couple titre/description. Les moteurs de recherche n’aime pas du tout. La cause racine principale de ce type de problème pour les blogs vient  des archives. Avec WordPress par exemple, on peut accéder aux archives temporelles, aux archives de catégories ou aux archives d’un auteur en particulier. Le risque que le contenu soit identique est fort. Il existe des solutions si vous ne pouvez pas faire autrement en ajoutant des balises meta. Je vous laisse chercher sur Internet pour avoir plus d’information sur ce sujet.
+Il faut éviter le __contenu dupliqué__. Il peut arriver qu’un contenu soit accessible par l’intermédiaire de plusieurs URL différentes ou que des pages de votre site ont le même couple titre/description. Les moteurs de recherche n’aiment pas du tout. La cause racine principale de ce type de problème pour les blogs vient  des archives. Avec WordPress par exemple, on peut accéder aux archives temporelles, aux archives de catégories ou aux archives d’un auteur en particulier. Le risque que le contenu soit identique est fort. Il existe des solutions si vous ne pouvez pas faire autrement en ajoutant des balises meta. Je vous laisse chercher sur Internet pour avoir plus d’information à ce sujet.
 
 __La vitesse de chargement des pages__ est importante pour le confort de vos lecteurs et pour le référencement par les moteurs de recherche. Les axes à connaître pour l’optimiser :
 
-*   Si vous utilisez un CMS qui génère un site dynamique, __utilisez le moins de plugins possible__. C’est évident, ils peuvent vous faciliter la tâche mais ils peuvent détériorer les performances. De nombreux plugins peuvent être remplacé par des modifications directement dans le thème du site. Dans WordPress, les thèmes enfants ont grandement facilité le travail dans les thèmes.
+*   Si vous utilisez un CMS qui génère un site dynamique, __utilisez le moins de plugins possible__. C’est évident, ils peuvent vous faciliter la tâche, mais ils peuvent détériorer les performances. De nombreux plugins peuvent être remplacés par des modifications directement dans le thème du site. Dans WordPress, les thèmes enfants ont grandement facilité le travail dans les thèmes.
 *   Si vous utilisez un CMS qui génère un site dynamique, __utilisez un plugin de cache__. Il en existe de nombreux et chacun a ces avantages. Je vous conseille de rechercher sur Internet pour trouver celui qui correspond à votre besoin.
-*   Vous pouvez __renoncer aux CMS et opter pour un site statique__. Il y a de nombreuse solutions qui existent comme [Jekyll](https://jekyllrb.com/) (que j'utilise aujourd'hui pour ce blog). C'est comme si vous aviez une interface d'administration en local. Le framework s'occupe de générer le site et de le publier. Le resultat est un site avec des vitesses de chargement imbattables.
+*   Vous pouvez __renoncer aux CMS et opter pour un site statique__. Il y a de nombreuse solutions qui existent comme [Jekyll](https://jekyllrb.com/) (que j'utilise aujourd'hui pour ce blog). C'est comme si vous aviez une interface d'administration en local. Le framework s'occupe de générer le site et de le publier. Le résultat est un site avec des vitesses de chargement imbattables.
 
-Quelque soit la solution retenue, il existe de nombreux plugins (pour Wordpress ou Jekyll) avec le tag SEO pour vous aider à optimiser votre référencement par les moteurs de recherche :
+Quel que soit la solution retenue, il existe de nombreux plugins (pour Wordpress ou Jekyll) avec le tag SEO pour vous aider à optimiser votre référencement par les moteurs de recherche :
 
-*   Du coté de WordPress, [WordPress SEO by Yoast](https://yoast.com/wordpress/plugins/seo/) est un des meilleurs à mon goût car il propose une sorte de check liste, lors de la rédaction d’une page ou d’un article, qui vous permet d’optimiser votre contenu vis-à-vis du référencement.
+*   Du côté de WordPress, [WordPress SEO by Yoast](https://yoast.com/wordpress/plugins/seo/) est un des meilleurs à mon goût, car il propose une sorte de check liste, lors de la rédaction d’une page ou d’un article, qui vous permet d’optimiser votre contenu vis-à-vis du référencement.
 *   Du coté de Jekyll, il y a moins de choix car pas mal de paramètres ayant un impact sur le référencement sont éditables lors de la création du contenu. Il y a le plugin [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) qui permet quand même de faciliter cette optimisation.
 
 ## Les nouveautés
 
-Depuis la première publication de cet article, de nouveaux paramètres importants ont emmergé dans le référencement.
+Depuis la première publication de cet article, de nouveaux paramètres importants ont émmergé dans le référencement.
 
-Les plus important est __la capacité de votre site à fonctionner sur des appareils mobiles__. On parle généralement de site "_responsive_" (comprendre _adaptable aux différents format d'écran_). Les moteurs de recherche favoriseront les sites qui fonctionnent sur tous les appareils populaires.
+Le plus important est __la capacité de votre site à fonctionner sur des appareils mobiles__. On parle généralement de site "_responsive_" (comprendre _adaptable aux différents formats d'écran_). Les moteurs de recherche favoriseront les sites qui fonctionnent sur tous les appareils populaires.
 
-Le second paramètre notable est __l'intégration de vos liens aux réseaux sociaux__. En effet les réseaux sociaux sont de plus en plus source de traffic, il est donc primordial d'optimiser la façon dont apparaissent les liens vers vos pages quand ils sont publiés sur ces réseaux. Je ne vais pas rentrer dans le détail, internet est votre amis pour approfondir ce sujet.
+Le second paramètre notable est __l'intégration de vos liens aux réseaux sociaux__. En effet les réseaux sociaux sont de plus en plus source de trafic, il est donc primordial d'optimiser la façon dont apparaissent les liens vers vos pages quand ils sont publiés sur ces réseaux. Je ne vais pas rentrer dans le détail, internet est votre ami pour approfondir ce sujet.
 
 ## Rester informé
 
@@ -59,4 +59,4 @@ __Liste de lecture non exhaustive et accessible aux débutants :__
 
 ## En conclusion
 
-J’espère que cette initiation sera utile à ceux qui débutent. Les autres vous pouvez compléter ou corriger ci nécessaire;-)
+J’espère que cette initiation sera utile à ceux qui débutent. Les autres, vous pouvez compléter ou corriger si nécessaire :wink:
