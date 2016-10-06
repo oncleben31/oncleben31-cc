@@ -16,7 +16,7 @@ J’ai crée ce blog pour suivre un peu toutes ces activités et communiquer sur
 
 ## Un peu de technique
 
-Ce site est généré avec [__Jekyll__](https://jekyllrb.com) utilisant le thème par defaut [__minima__](https://github.com/jekyll/minima) et hebérgé grâce à [__Github Pages__](https://pages.github.com/).
+Ce site est généré avec [__Jekyll__](https://jekyllrb.com) utilisant le thème par defaut [__minima__](https://github.com/jekyll/minima), hebérgé grâce à [__Github Pages__](https://pages.github.com/) avec le support de [__Travis CI__](https://travis-ci.org/) pour l'intégration continue.
 
 Mon environement de production est basé sur [__Vagrant__](https://www.vagrantup.com/), [__Atom__](https://atom.io/), [__Chrome__](https://www.google.fr/intl/fr/chrome/browser/desktop/index.html) tout cela tournant sur macOS.
 
