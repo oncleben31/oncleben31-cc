@@ -5,7 +5,7 @@ categories: article
 tags: SEO
 ---
 
-Je republie après mise-à-jour un article de l'ancienne version de mon blog concernant le référencement.
+Je republie après mise-à-jour un article de l'ancienne version de mon blog concernant le référencement. L'objectif est de donner une rapide initiation aux concepts d'optimisation de l'indexation par les moteurs de recherche.
 
 ## Introduction
 
@@ -59,4 +59,4 @@ __Liste de lecture non exhaustive et accessible aux débutants :__
 
 ## En conclusion
 
-J’espère que cette initiation sera utile à ceux qui débutent. Les autres, vous pouvez compléter ou corriger si nécessaire :wink:
+J’espère que cette initiation sera utile à ceux qui débutent en leur permettant d'éviter de réaliser trop tard les optimisations nécessaires pour améliorer son référencement. Les autres, vous pouvez compléter ou corriger si nécessaire :wink:

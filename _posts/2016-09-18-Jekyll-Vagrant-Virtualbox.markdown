@@ -4,6 +4,8 @@ title:  "Jekyll dans une machine virtuelle avec Vagrant et VirtualBox"
 categories: article
 tags: [jekyll, vagrant]
 ---
+Dans cet article je vous explique pourquoi et comment j'ai mis en place un environnement de development Jekyll basé sur une machine virtuelle en utilisant Vagrant. Jekyll ici n'est qu'un example, vous pouvez utiliser cette méthode dans de nombreux autres cas.
+
 ## Pourquoi ?
 
 En faisant complètement autre chose, je suis tombé sur une [présentation de Jekyll ainsi qu'une comparaison entre cet outil permettant de faire des blogs statiques et Wordpress](http://digitalshore.io/jekyll-better-choice-than-joomla-wordpress/). Je suis rapidement convaincu par l'argumentaire et ça me donne envie de ressusciter oncleben31.cc
@@ -12,9 +14,9 @@ Et hop ! Me voilà lancé dans la découverte de cet outil et des différentes 
 
 Sur le même blog qui m'a fait découvrir Jekkyl, j'ai lu un article [expliquant les avantages de travailler avec une machine virtuelle](http://digitalshore.io/set-up-a-local-linux-development-environment-with-vagrant/) :
 
-*   on évite les conflits avec les outils et binaires de notre OS ;
-*   on peut customiser les versions de nos outils, binaires ou dépendances en fonction des projets en cours de développement ;
-*   on peut calquer l'environnement de production d'un fournisseur d'hébergement pour éviter de découvrir des problèmes de compatibilité pendant le déploiement ;
+*   les conflits avec les outils et binaires de notre OS sont évités ;
+*   les versions de nos outils, binaires ou dépendances sont paramétrables en fonction des projets en cours de développement ;
+*   l'environnement de production d'un fournisseur d'hébergement peut être répliqué en local pour éviter de découvrir des problèmes de compatibilité pendant le déploiement ;
 *   il est possible de synchroniser des fichiers entre la VM et l'OS de votre machine.
 
 Mais là où c'est vraiment fort c'est que grâce à Vagrant, la construction et le paramétrage de la machine virtuelle est complètement automatisée. Ainsi le paramétrage des machines virtuelles utilisées est facile à sauvegarder et rétablir en cas de besoin.
@@ -36,14 +38,14 @@ touch Vagrantfile
 {% endhighlight %}
 Vous trouverez plus bas un exemple avec le fichier `Vagrant` que j'utilise en ce moment.
 
-### On lance la création et le démarrage de la VM
+### Lancement de la création et démarrage de la VM
 {% highlight shell %}
 vagrant up
 {% endhighlight %}
 Lors du premier lancement la VM sera créée. C'est-à-dire que l'image sera téléchargée, ensuite la VM sera lancée et toutes les dépendances paramétrées seront installées.
 Lors des lancements suivants, la VM sera juste démarrée.
 
-### On se connecte à la VM en SSH
+### Connexion à la VM en SSH
 {% highlight shell %}
 vagrant ssh
 {% endhighlight %}
@@ -191,4 +193,5 @@ par:
 url: ""
 {% endhighlight %}
 
+Vous connaissez maintenant les avantages de l'utilisation d'une machine virtuelle configurée automatiquement par Vagrant pour vos dévelopement. Vous maitrisé les bases pour mettre en place ce type de solution.
 A vous de jouer maintenant pour personnaliser votre site. Je vous conseille de lire la [documentation](https://jekyllrb.com/docs/home/) pour bien débuter.
