@@ -3,6 +3,7 @@ layout: post
 title:  "Jekyll dans une machine virtuelle avec Vagrant et VirtualBox"
 categories: article
 tags: [jekyll, vagrant]
+excerpt: "Je vous explique pourquoi et comment j'ai mis en place un environnement de development Jekyll basé sur une machine virtuelle en utilisant Vagrant."
 ---
 Dans cet article je vous explique pourquoi et comment j'ai mis en place un environnement de development Jekyll basé sur une machine virtuelle en utilisant Vagrant. Jekyll ici n'est qu'un example, vous pouvez utiliser cette méthode dans de nombreux autres cas.
 

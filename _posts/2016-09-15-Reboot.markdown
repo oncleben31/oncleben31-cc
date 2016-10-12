@@ -2,6 +2,7 @@
 layout: post
 title:  "Reboot!"
 categories: article
+excerpt: "Deuxième reboot de ce blog. Pourquoi ? Comment..."
 ---
 Deuxième reboot de ce blog.
 

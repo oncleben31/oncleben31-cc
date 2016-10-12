@@ -3,6 +3,7 @@ layout: post
 title:  "Initiation au référencement : à lire avant de commencer son blog"
 categories: article
 tags: SEO
+excerpt: "L'objectif est de donner une rapide initiation au concept d'optimisation de l'indexation par les moteurs de recherche appelé aussi référencement"
 ---
 
 Je republie après mise-à-jour un article de l'ancienne version de mon blog concernant le référencement. L'objectif est de donner une rapide initiation aux concepts d'optimisation de l'indexation par les moteurs de recherche.
