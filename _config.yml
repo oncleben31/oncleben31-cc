@@ -10,10 +10,14 @@ google_analytics: UA-10458131-3
 disqus:
   shortname: oncleben31-cc
 
-### Basic i18n:
+### Basic localisation (l10n)
+# If you customize the lang parameter, minima will try to use the strings in _data/locales/[lang].yml
+# Read https://github.com/jekyll/minima/README.md for more information.
 lang: fr
-posts_title: "Articles"
-subscribe_RSS: "S'abonner au flux "
+
+# Even the day and month names will be translated. You can customize your date by
+# uncommenting the following line and customizing the date format:
+date_format: "Le %-d %B %Y"
 
 
 # Build settings
