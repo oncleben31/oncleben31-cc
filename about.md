@@ -2,6 +2,7 @@
 layout: page
 title: À propos
 permalink: /a-propos/
+excerpt: "Faites connaissance avec Oncleben31 et découvrez ses motivations pour son blog: l'open source et le partage."
 ---
 
 ## Un peu de moi

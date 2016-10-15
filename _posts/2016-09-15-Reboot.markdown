@@ -2,6 +2,7 @@
 layout: post
 title:  "Reboot!"
 categories: article
+excerpt: "Deuxième reboot de ce blog. Pourquoi ? Comment..."
 ---
 Deuxième reboot de ce blog.
 
@@ -11,6 +12,6 @@ Il n'avait pas été mis à jour depuis plusieurs années et le contenu précéd
 *   j'en profite pour migrer vers un blog statique basé sur [Jekyll](https://jekyllrb.com/ "Site officiel de Jekyll"). Au revoir CMS et bases de données ;
 *   j'en profite pour faire des TP impliquant une __machine virtuelle__, __git__, __Github Pages__ ainsi que des solutions __d'Intégration Continue__ et de __Déploiement Continue__.
 
-J'espère que vous le trouverez agréable à consulter.
+J'espère que vous le trouverez agréable à consulter. Et n'hésitez pas à me dire en commentaire s'il y a des sujets que vous voulez revoir.
 
 Oncleben31.
