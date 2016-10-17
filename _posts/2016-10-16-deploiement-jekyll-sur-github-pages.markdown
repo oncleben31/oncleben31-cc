@@ -73,6 +73,11 @@ Je trouve que la branche `master` est plus pratique dans le cadre de mon blog.
 
 J'ai listé, plus haut, quelques inconvénients qui sont contournables.
 
-Le premier concerne les plugins qui ne sont pas toléré par Github Pages. Le contournement consiste à continuer à gérer ses sources sur Github (sur la branche master par exemple), mais faire la génération des pages a l'extérieurs de Github et de les synchroniser avec la branche gh-pages. La génération pouvant se la faire manuellement en local sur votre machine, ou automatiquement avec un outil d'intégration continue comme [Travis CI](http://travis-ci.org) par exemple.
+### Github Pages et plugins
 
-Le second concerne le nom de domaine. Il est relativement facile d'acheter un nom de domaine et de le rediriger vers Github pour remplacer les URL du type `votre_pseudo.github.io/votre_depot`. Par contre, tous les dépôt de votre compte utilisant Github Pages seront accessibles sur votre nom de domaine. Le contournement consiste à créer une organisation pour votre projet. D'héberger le dépôt de votre site avec cette organisation et de diriger votre nom de domaine vers le dépôt de l'organisation. Ainsi le nom de domaine ne sera pas pollué par vos autres dépôts.
+Le premier contournement concerne les plugins qui ne sont pas toléré par Github Pages. Le contournement consiste à continuer à gérer ses sources sur Github (sur la branche master par exemple), mais faire la génération des pages a l'extérieurs de Github et de les synchroniser avec la branche gh-pages. La génération pouvant se la faire manuellement en local sur votre machine, ou automatiquement avec un outil d'intégration continue comme [Travis CI](http://travis-ci.org) par exemple.
+
+Si vous voulez allez plus loin dans ce type de solution je vous conseille de regarder [le Gist de Domenic Denicola](https://gist.github.com/domenic/ec8b0fc8ab45f39403dd).
+
+### Github Pages et nom de domaine
+Le second contournement concerne le nom de domaine. Il est relativement facile d'acheter un nom de domaine et de le rediriger vers Github pour remplacer les URL du type `votre_pseudo.github.io/votre_depot`. Par contre, tous les dépôt de votre compte utilisant Github Pages seront accessibles sur votre nom de domaine. Le contournement consiste à créer une organisation pour votre projet. D'héberger le dépôt de votre site avec cette organisation et de diriger votre nom de domaine vers le dépôt de l'organisation. Ainsi le nom de domaine ne sera pas pollué par vos autres dépôts.
