@@ -2,7 +2,7 @@
 layout: post
 title:  "Initiation au référencement : à lire avant de commencer son blog"
 categories: article
-tags: SEO
+tags: [SEO, wordpress, jekyll]
 excerpt: "L'objectif est de donner une rapide initiation au concept d'optimisation de l'indexation par les moteurs de recherche appelé aussi référencement"
 ---
 
