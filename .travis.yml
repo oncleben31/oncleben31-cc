@@ -10,7 +10,7 @@ script: "./script/cibuild"
 deploy:
   skip_cleanup: true
   provider: script
-  script: "./script/deploy.sh"
+  script: "./script/deploy"
   on:
     branch: master
 
