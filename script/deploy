@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
-set -o errexit -o nounset
+set -o errexit
 
 # Save some useful information
-SHA=`git rev-parse --short HEAD`
+rev=$(git rev-parse --short HEAD)
 
 # change folder to the generated files during the build
 cd _site
 
 # basic git settings for the commit
+git init
 git config user.name "Travis CI"
 git config user.email "github@travis-ci.org"
 
-git remote add upstream "https://$GH_TOKEN@github.com/oncleben31/oncleben31.github.io.git"
+git remote add upstream ${GIT_DEPLOY_REPO}
 git fetch upstream
 git reset upstream/gh-pages
 
