@@ -20,12 +20,6 @@ namespace :serve do
     puts "Starting up development Jekyll site server with drafts..."
     system "bundle exec jekyll serve --config _config.yml,_config.dev.yml --host 0.0.0.0 --force_polling --drafts"
   end
-
-  desc "Serve production Jekyll site locally"
-  task :prod do
-    puts "Starting up production Jekyll site server..."
-    system "bundle exec jekyll serve --host 0.0.0.0 --force_polling"
-  end
 end
 
 # Usage: rake build, rake build:dev, rake build:drafts
@@ -38,22 +32,16 @@ namespace :build do
     system "JEKYLL_ENV=production bundle exec jekyll build"
   end
 
-  desc "Regenerate files for production (Windows systems)"
-  task :win do
-    puts "* Regenerating files for production..."
-    system "bundle exec jekyll build"
-  end
-
   desc "Regenerate files for development"
   task :dev do
     puts "* Regenerating files for development..."
-    system "bundle exec jekyll build --config _config.yml,_config.dev.yml --profile"
+    system "bundle exec jekyll build --profile"
   end
 
   desc "Regenerate files and drafts for development"
   task :drafts do
     puts "* Regenerating files and drafts for development..."
-    system "bundle exec jekyll build --config _config.yml,_config.dev.yml --profile --drafts"
+    system "bundle exec jekyll build  --profile --drafts"
   end
 end
 
