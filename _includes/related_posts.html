@@ -1,0 +1,48 @@
+{% comment %}
+include to add related post at the end of the post.
+If no related post found, nothing is added
+If at least one related post is found, add the title and the list of the related posts.
+{% endcomment %}
+
+{% assign maxRelated = 4 %}
+{% assign minCommonTags =  1 %}
+{% assign maxRelatedCounter = 0 %}
+{% assign atLeastOneRelatedFound = false %}
+
+  {% for post in site.posts %}
+
+    {% assign sameTagCount = 0 %}
+    {% assign commonTags = '' %}
+
+    {% for tag in post.tags %}
+      {% if post.url != page.url %}
+        {% if page.tags contains tag %}
+          {% assign sameTagCount = sameTagCount | plus: 1 %}
+          {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+          {% assign commonTags = commonTags | append: tagmarkup %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if sameTagCount >= minCommonTags %}
+      {%if atLeastOneRelatedFound == false %}
+        <div class="relatedPosts">
+        <hr>
+        <h2>Vous devriez être aussi intéressé par :</h2>
+        <ul>
+        {% assign atLeastOneRelatedFound = true %}
+      {% endif %}
+      <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}{{ commonTags }}</a> - publié le {% include translated_date.html date=post.date format="%-d %b %Y" %}
+      </li>
+      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+      {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+
+  {% endfor %}
+{%if atLeastOneRelatedFound == true %}
+</ul>
+</div>
+{% endif %}

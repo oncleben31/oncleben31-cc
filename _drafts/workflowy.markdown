@@ -11,16 +11,19 @@ L'objectif de cet article est de vous présenter [Workflowy](https://workflowy.c
 
 J'ai testé au fil du temps de nombreux outils pour essayer d'améliorer ma gestion des actions : Remember the Milk, Evernote, Omnifocus, Google tasks, Google keep, Trello, Todoist, any.do, Kan Ban, GTD, etc...
 
-Je suis resté longtemps sur Omnifocus car très ergonomique avec une bonne implémentation du GTD ([Get Things Done](https://fr.wikipedia.org/wiki/Getting_Things_Done)). Cependant il était incompatible avec mes contraintes quotidiennes car uniquement dans l'univers Apple. Bien que fan de la marque et équipé d'appareil macOS et iOS, mon téléphone du moment est sous Android et mon ordinateur professionnel est sous Windows.
-J'ai en plus quelques contraintes d'accès à Internet depuis mon bureau, tous les outils et services ci-dessus n'étaient pas accessibles depuis mon lieu de travail.
+Je suis resté longtemps sur Omnifocus car très ergonomique avec une bonne implémentation du GTD ([Get Things Done](https://fr.wikipedia.org/wiki/Getting_Things_Done)). Cependant il était incompatible avec mes contraintes quotidiennes car uniquement dans l'univers Apple. Bien que fan de la marque et équipé d'appareils macOS et iOS, mon téléphone du moment est sous Android et mon ordinateur professionnel est sous Windows.
+J'ai en plus quelques contraintes d'accès à Internet depuis mon lieu de travail qui m'empechent d'accéder à certains des services ci-dessus.
+
 __Je ne pouvais donc pas avoir une base unique pour gérer mes actions ce qui est une des préconisations majeures de la méthode GTD__
 
-Après plusieurs années de recherche sans succès mon cahier des charges étaient :
+Après plusieurs années de recherche sans succès, mon cahier des charges étaient :
 *   Une solution multi plateformes
 *   Synchronisation entre tous les clients
 *   Fonctionnement hors ligne possible
 *   Une solution malléable
 *   Une solution ergonomique orienté sur l'efficacité et la rapidité
+
+J'ai trouvé alors Workflowy qui est devenu avec le temps la solution ultime contenu de mon contexte et ma manière de travailler.
 
 ## Presentation de Workflowy
 

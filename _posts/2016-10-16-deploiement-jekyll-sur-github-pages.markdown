@@ -65,9 +65,9 @@ bundle exec jekyll serve --config _config.yml,_config_dev.yml
 
 ## La branche
 
-Dans la documentation on trouves une contrainte historique qui consiste à demander l'installation des sources Jekyll dans la branche `gh-pages`. En faite, vous pouvez mettre vos sources dans n'importe quelle branche à partir du moment où vous l'indiquez dans les paramétrages de votre dépôt.
+Pour pouvoir utiliser Github Pages pour héberger votre site vous devez installer vos sources Jekyll dans la branche `master` ou `gh-pages`. Attention, si vous utilisez le dépôt `votre_pseudo.github.io`, vous ne pouvez utiliser que la branche `master`.
 
-Je trouve que la branche `master` est plus pratique dans le cadre de mon blog.
+Le choix du nom du dépôt et de la branche de travail doit être "réfléchi" car il donne des contraintes à prendre en compte si vous voulez faire une génération hors Github ou si vous voulez utiliser votre nom de domaine personnalisé.
 
 ## Les contournements
 
