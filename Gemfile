@@ -1,8 +1,12 @@
 source 'https://rubygems.org'
 ruby RUBY_VERSION
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
-gem 'github-pages', versions['github-pages']
-gem "html-proofer"
+gem 'jekyll'
+gem 'html-proofer'
+
+group :jekyll_plugins do
+  gem 'minima'
+  gem 'jekyll-sitemap'
+  gem 'jemoji'
+  gem 'jekyll-last-modified-at'
+end
