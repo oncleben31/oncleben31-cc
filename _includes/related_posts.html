@@ -2,7 +2,6 @@
 include to add related post at the end of the post.
 If no related post found, nothing is added
 If at least one related post is found, add the title and the list of the related posts.
-#TODO correct the base_url when Jekyll 3.3.0 availble
 {% endcomment %}
 
 {% assign maxRelated = 4 %}
@@ -34,7 +33,7 @@ If at least one related post is found, add the title and the list of the related
         {% assign atLeastOneRelatedFound = true %}
       {% endif %}
       <li>
-      <a href="{{ site.baseurl | default: site.github.url }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a> - publié le {% include translated_date.html date=post.date format="%-d %b %Y" %}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}{{ commonTags }}</a> - publié le {% include translated_date.html date=post.date format="%-d %b %Y" %}
       </li>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
