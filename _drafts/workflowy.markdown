@@ -33,7 +33,7 @@ Workflowy est un gestionaire de liste. Ca fait pas réver là. Hein? En fait la 
 
 J'ai l'habitude de le présenter comme un logiciel de mind mapping à 1 dimension. Comme si vous aviez une énorme liste à puce que vous pouvez remplir. Il faut le voir réellement comme un outil (je dirai un couteau suisse) que vous devez apprendre à maitriser pour vous rendre compte que vous le vourdrez toujours dans votre poche.
 
-Le concept: 
+Le concept:
 *   Il y a une liste principal
 *   Chaque item peut devenir une sous-liste.
 *   Il y a deux familles de tags: #abx et @xyz.
@@ -71,6 +71,14 @@ Deux sources d'inspiration principale:
 
 Les fonctionnalités supplémentaires
 
+### La concurrence
+Pour être honnête je ne connais pas bien la concurrence, je suis un utilisateur de Workflowy depuis plus de 5 ans, et j'y ai mes habitudes. J'ai testé Checkvist il y a quelques mais je n'était pas convaincu. En préparant cette article j'ai donc trouvé les alternatives suivantes
+*   [Moo.do](https://moo.do)
+*   [Dynalist.io](https://dynalist.io)
+*   [Checkvist](https://checkvist.com/)
+*   Et plein de [clones open source sur Github](https://github.com/search?utf8=%E2%9C%93&q=workflowy+clone&type=Repositories&ref=searchresults)
+
+Je vous laisse faire les comparaisons. N'hésitez pas à partager vos préférences dans les commentaires.
 
 ## Mes astuces
 
