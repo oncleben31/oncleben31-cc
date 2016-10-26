@@ -27,21 +27,21 @@ J'ai trouvé alors Workflowy qui est devenu avec le temps la solution ultime con
 
 ## Presentation de Workflowy
 
-Workflowy: Orgnaize your Brain....
+> Workflowy: Orgnaize your Brain....
 
-Workflowy est un gestionaire de liste. Ca fait pas réver là. Hein? En fait la où il se démarque c'est dans la manière de le faire et le potentiel qu'il a.
+Workflowy est un gestionnaire de liste. Ca fait pas river là. Hein? En fait la où il se démarque c'est dans la manière de le faire et le potentiel qu'il a.
 
-J'ai l'habitude de le présenter comme un logiciel de mind mapping à 1 dimension. Comme si vous aviez une énorme liste à puce que vous pouvez remplir. Il faut le voir réellement comme un outil (je dirai un couteau suisse) que vous devez apprendre à maitriser pour vous rendre compte que vous le vourdrez toujours dans votre poche.
+J'ai l'habitude de le présenter comme un logiciel de mind mapping à une dimension. Comme si vous aviez une énorme liste à puce que vous pouvez remplir avec tout ce que vous avez en en tête. Il faut le voir réellement comme un outil (je dirai un couteau suisse) que vous devez apprendre à maitriser pour vous rendre compte que vous le voudrez toujours avec vous.
 
-Le concept:
+__Le concept__:
 *   Il y a une liste principal
 *   Chaque item peut devenir une sous-liste.
-*   Il y a deux familles de tags: #abx et @xyz.
+*   Il y a deux familles de tags: `#abx` et `@xyz`.
 *   Il y a une fonction de recherche dans toutes les listes et sur les tags très efficace
 *   De nombreux raccourcis claviers vous permettent d'augmenter votre rapidité lors du l'utilisation
 *   Le business model est freemium: avec un compte gratuit vous pouvez créer 250 items par mois
 
-Je vous propose de regarder les annimations suivante pour vous faire une idée.
+Je vous propose de regarder les animations suivante pour vous faire une idée.
 
 ## Clients et outils
 

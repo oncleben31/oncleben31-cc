@@ -12,13 +12,13 @@ namespace :serve do
   desc "Serve development Jekyll site locally"
   task :dev do
     puts "Starting up development Jekyll site server..."
-    system "bundle exec jekyll serve --config _config.yml,_config.dev.yml --host 0.0.0.0 --force_polling"
+    system "bundle exec jekyll serve --host 0.0.0.0 --force_polling"
   end
 
   desc "Serve development Jekyll site locally with drafts"
   task :drafts do
     puts "Starting up development Jekyll site server with drafts..."
-    system "bundle exec jekyll serve --config _config.yml,_config.dev.yml --host 0.0.0.0 --force_polling --drafts"
+    system "bundle exec jekyll serve  --host 0.0.0.0 --force_polling --drafts"
   end
 end
 
