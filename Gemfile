@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby RUBY_VERSION
 
-gem 'jekyll'
+gem 'jekyll', "~> 3.4.0"
 gem 'html-proofer'
 
 group :jekyll_plugins do
