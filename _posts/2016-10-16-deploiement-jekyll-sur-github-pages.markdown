@@ -35,8 +35,8 @@ Les inconvénients liés à l'utilisation de Github Pages sont:
 Lorsque j'ai commencé la mise en place de ce blog. La gem github-pages était en version v97 et basée sur jekyll v3.2.1 et minima v1.2.0.
 Le theme minima dans cette version avait besoin d'être modifié pour fonctionner correctement en local. Mes patchs sont disponibles dans les commits suivants :
 
-*   046abe81ffb0f88c698cb6b5c10f5a489ce6a14d
-*   c5f4ca38e4d81a4e822f4e3f0b9cbe8a00a781cb
+*   [046abe81ffb0f88c698cb6b5c10f5a489ce6a14d](https://github.com/jekyll/minima/pull/46/commits/046abe81ffb0f88c698cb6b5c10f5a489ce6a14d)
+*   [c5f4ca38e4d81a4e822f4e3f0b9cbe8a00a781cb](https://github.com/jekyll/minima/pull/46/commits/c5f4ca38e4d81a4e822f4e3f0b9cbe8a00a781cb)
 
 Ces correctifs sont inclus depuis la version v2.0.0 de minima.
 
