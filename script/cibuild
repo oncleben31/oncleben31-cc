@@ -1,5 +1,27 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
+#Building site
+echo "Building site -------------------------------------"
 JEKYLL_ENV=production bundle exec jekyll build
-bundle exec htmlproofer ./_site
+
+#HTML proof
+echo "Checking genereated site --------------------------"
+if [ "$TRAVIS" == "true" ]; then
+    # Travis has issues with https, so we have to ignore quite a few extra sites
+    echo "## Travis detected. Using specific ignoring list."
+
+    # credit: code snippet borrowed from jekyllrb.com website source
+    IGNORE_HREFS=$(ruby -e 'puts %w{
+        digitalshore\.io
+    }.map{|h| "/#{h}/"}.join(",")')
+else
+    echo "## Not on Travis. Using standard ignoring list."
+
+    # credit: code snippet borrowed from jekyllrb.com website source
+    IGNORE_HREFS=$(ruby -e 'puts %w{
+        example.com
+    }.map{|h| "/#{h}/"}.join(",")')
+fi
+
+bundle exec htmlproofer ./_site --url-ignore $IGNORE_HREFS
