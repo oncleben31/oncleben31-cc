@@ -13,7 +13,8 @@ if [ "$TRAVIS" == "true" ]; then
 
     # credit: code snippet borrowed from jekyllrb.com website source
     IGNORE_HREFS=$(ruby -e 'puts %w{
-        digitalshore\.io
+        digitalshore.io
+        vagrantup.com
     }.map{|h| "/#{h}/"}.join(",")')
 else
     echo "## Not on Travis. Using standard ignoring list."
