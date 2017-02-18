@@ -21,8 +21,10 @@ else
 
     # credit: code snippet borrowed from jekyllrb.com website source
     IGNORE_HREFS=$(ruby -e 'puts %w{
-        example.com
+        digitalshore.io
     }.map{|h| "/#{h}/"}.join(",")')
 fi
 
-bundle exec htmlproofer ./_site --url-ignore $IGNORE_HREFS
+echo $IGNORE_HREFS
+
+bundle exec htmlproofer ./_site --url-ignore $IGNORE_HREFS --internal-domains oncleben31.cc --log-leve :debug
