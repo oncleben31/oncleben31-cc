@@ -27,4 +27,4 @@ fi
 
 echo $IGNORE_HREFS
 
-bundle exec htmlproofer ./_site --url-ignore $IGNORE_HREFS --internal-domains oncleben31.cc --log-leve :debug
+bundle exec htmlproofer ./_site --url-ignore $IGNORE_HREFS --internal-domains oncleben31.cc --log-level :debug
