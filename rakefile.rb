@@ -1,6 +1,8 @@
 # Thanks to https://github.com/mmistakes
 # Inspired by: https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/Rakefile.rb
 
+require 'html-proofer'
+
 ##############
 # Jekyll tasks
 ##############
@@ -98,5 +100,15 @@ end
 desc "htmlproofer on the contents of ./_site"
 task :htmlproofer do
   puts "htmlproofer on the contents of ./_site"
-  system "bundle exec htmlproofer ./_site"
+  #system "bundle exec htmlproofer ./_site"
+  HTMLProofer.check_directory("./_site", {
+    :log_level => ":debug",
+    :internal_domains => ["oncleben31.cc"],
+    :url_ignore => [/digitalshore.io/],
+    :check_favicon => true,
+    :check_opengraph => true,
+    :check_html => true,
+    :check_img_http => true,
+    :enforce_https => true
+    }).run
 end
