@@ -4,7 +4,6 @@ title:  "Initiation au référencement : à lire avant de commencer son blog"
 categories: article
 tags: [SEO, wordpress, jekyll]
 excerpt: "L'objectif est de donner une rapide initiation au concept d'optimisation de l'indexation par les moteurs de recherche appelé aussi référencement"
-last_modified_at: 2016-10-22
 ---
 
 Je republie après mise-à-jour un article de l'ancienne version de mon blog concernant le référencement. L'objectif est de donner une rapide initiation aux concepts d'optimisation de l'indexation par les moteurs de recherche.
@@ -51,7 +50,7 @@ Le plus important est __la capacité de votre site à fonctionner sur des appare
 Le second paramètre notable est __l'intégration de vos liens aux réseaux sociaux__. En effet les réseaux sociaux sont de plus en plus source de trafic, il est donc primordial d'optimiser la façon dont apparaissent les liens vers vos pages quand ils sont publiés sur ces réseaux. Je ne vais pas rentrer dans le détail, internet est votre ami pour approfondir ce sujet.
 
 Un troisième paramètre pris en compte est __l'utilisation
- d'un cryptage HTTPS__ pour votre site. Google a décidé de favoriser ceux qui sont sensibles à la sécurité. Si vous utiliser Github Pages pour héberger votre site statique vous pouvez bénéficier d'une adresse utilisant le protocol HTPPS  (sauf si vous utilisez un nom de domaine personnalisé).
+ d'un cryptage HTTPS__ pour votre site. Google a décidé de favoriser ceux qui sont sensibles à la sécurité. Si vous utilisez Github Pages pour héberger votre site statique vous pouvez bénéficier d'une adresse utilisant le protocol HTTPS  (sauf si vous utilisez un nom de domaine personnalisé).
 
 ## Rester informé
 
