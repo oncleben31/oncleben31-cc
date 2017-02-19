@@ -23,6 +23,6 @@ Mon environement de production est basé sur [__Vagrant__](https://www.vagrantup
 
 ## Licences
 
-Les articles et pages du site oncleben31.cc sont diffusés sous licence [Creative Commons BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr)
+Les articles et pages du site oncleben31.cc sont diffusés sous licence [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr)
 
 Les sources de ce site sont disponible sur [Github](https://github.com/oncleben31/oncleben31.github.io) sous licence __MIT__

@@ -75,7 +75,7 @@ J'ai listé, plus haut, quelques inconvénients qui sont contournables.
 
 ### Github Pages et plugins
 
-Le premier contournement concerne les plugins qui ne sont pas toléré par Github Pages. Le contournement consiste à continuer à gérer ses sources sur Github (sur la branche master par exemple), mais faire la génération des pages a l'extérieurs de Github et de les synchroniser avec la branche gh-pages. La génération pouvant se la faire manuellement en local sur votre machine, ou automatiquement avec un outil d'intégration continue comme [Travis CI](http://travis-ci.org) par exemple.
+Le premier contournement concerne les plugins qui ne sont pas toléré par Github Pages. Le contournement consiste à continuer à gérer ses sources sur Github (sur la branche master par exemple), mais faire la génération des pages a l'extérieurs de Github et de les synchroniser avec la branche gh-pages. La génération pouvant se la faire manuellement en local sur votre machine, ou automatiquement avec un outil d'intégration continue comme [Travis CI](https://travis-ci.org) par exemple.
 
 Si vous voulez allez plus loin dans ce type de solution je vous conseille de regarder [le Gist de Domenic Denicola](https://gist.github.com/domenic/ec8b0fc8ab45f39403dd).
 

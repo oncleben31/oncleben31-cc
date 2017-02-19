@@ -59,8 +59,8 @@ Le dernier conseil que je pourrai donner : si vous voulez en savoir plus il faut
 
 __Liste de lecture non exhaustive et accessible aux débutants :__
 
-*   [Seomix](http://www.seomix.fr/) et [Le blog de Florian Karmen](http://floriankarmen.com/) (en français)
-*   [Yoast](http://yoast.com/) et le blog de [Matt Cutts](http://www.mattcutts.com/blog/type/googleseo/) (en anglais)
+*   [Seomix](http://www.seomix.fr/) et [Le blog de Florian Karmen](https://floriankarmen.com/) (en français)
+*   [Yoast](https://yoast.com/) et le blog de [Matt Cutts](https://www.mattcutts.com/blog/type/googleseo/) (en anglais)
 
 ## En conclusion
 
